@@ -4,6 +4,10 @@ import { Link } from 'react-router';
 
 export default class Menu extends Component {
 
+    outApp = () => {
+        localStorage.removeItem('authorized');
+    }
+
     render() {
         return <div>
             <Link to="/">Главная</Link>&nbsp;&nbsp;
@@ -11,7 +15,7 @@ export default class Menu extends Component {
             <Link to="/authorization">Вход</Link>&nbsp;&nbsp;
             <Link to="/about">О приложении</Link>&nbsp;&nbsp;
             <Link to="/movies">Фильмы</Link>&nbsp;&nbsp;
-            <Link to="/">Выход</Link>
+            <Link to="/authorization" onClick={this.outApp}>Выход</Link>
 
         </div>;
     }
