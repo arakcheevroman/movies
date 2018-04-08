@@ -10,7 +10,8 @@ export default class Menu extends Component {
             <Link to="/registration">Регистрация</Link>&nbsp;&nbsp;
             <Link to="/authorization">Вход</Link>&nbsp;&nbsp;
             <Link to="/about">О приложении</Link>&nbsp;&nbsp;
-            <Link to="/movies">Фильмы</Link>
+            <Link to="/movies">Фильмы</Link>&nbsp;&nbsp;
+            <Link to="/">Выход</Link>
 
         </div>;
     }
