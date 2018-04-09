@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Movies from './components/movies.js'
 import './App.css';
 import Menu from './components/menu.js';
 

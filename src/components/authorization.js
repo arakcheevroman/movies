@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router';
-import Menu from './menu.js';
-import Movies from './movies.js';
 
 class Authorization extends Component {
     state = {

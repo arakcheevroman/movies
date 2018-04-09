@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Movie from './movie.js'
-import Menu from './menu.js'
 
 
 export default class Movies extends Component {
