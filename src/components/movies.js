@@ -91,8 +91,6 @@ export default class Movies extends Component {
     }
 
 
-
-
     render() {
 
         let moviesFromState = this.state.movies;
